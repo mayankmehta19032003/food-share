@@ -1,9 +1,8 @@
-import React from "react";
-import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
-import OurStory from "./components/OurStory";
-import AboutUs from "./components/AboutUs";
-import Footer from "./components/Footer";
+import Navbar from "./components/Navbar/Navbar";
+import Hero from "./components/Hero/Hero";
+import AboutUs from "./components/AboutUs/AboutUs";
+import OurStory from "./components/OurStory/OurStory";
+import Footer from "./components/Footer/Footer";
 import "./App.css";
 
 function App() {

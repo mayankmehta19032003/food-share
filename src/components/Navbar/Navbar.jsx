@@ -19,14 +19,15 @@ const Navbar = () => {
           <a href="#home" className="nav-link">
             Home
           </a>
-          <a href="#events" className="nav-link">
-            Events
-          </a>
           <a href="#donate-food" className="nav-link donate-link">
             ❤️ Donate
           </a>
-          <a href="#about" className="nav-link">
-            About
+          <a href="#events" className="nav-link">
+            Events
+          </a>
+
+          <a href="#contribute" className="nav-link">
+            Contribute Food
           </a>
         </div>
 
@@ -41,4 +42,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
