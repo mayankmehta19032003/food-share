@@ -4,6 +4,7 @@ import Hero from "./components/Hero/Hero";
 import OurStory from "./components/OurStory/OurStory";
 import AboutUs from "./components/AboutUs/AboutUs";
 import Donation from "./components/Donate/Donate";
+import Events from "./components/EventsList/EventList";
 import { Routes, Route } from "react-router-dom";
 import "./App.css";
 
@@ -30,6 +31,16 @@ function App() {
             <>
               <Navbar />
               <Donation />
+              <Footer />
+            </>
+          }
+        />
+         <Route
+          path="/events"
+          element={
+            <>
+              <Navbar />
+              <Events />
               <Footer />
             </>
           }

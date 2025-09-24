@@ -25,9 +25,12 @@ const Navbar = () => {
             ❤️ Donate
           </a>
           </Link>
+          <Link to="/events">
           <a href="#events" className="nav-link">
             Events
           </a>
+          </Link>
+          
 
           <a href="#contribute" className="nav-link">
             Contribute Food
