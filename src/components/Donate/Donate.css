@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500;700&display=swap');
+
+.donate-section {
+  padding: 60px 0;
+  text-align: center;
+  background: #f9fafb;
+  font-family: 'Quicksand', Arial, sans-serif;
+}
+
+.donate-title {
+  color: #2563eb;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 18px;
+}
+
+.donate-desc {
+  color: #334155;
+  font-size: 1.1rem;
+  margin-bottom: 32px;
+  max-width: 600px;
+  margin: 0 auto 32px;
+}
+
+.fund-allocation {
+  background: #fff;
+  border-radius: 16px;
+  padding: 32px;
+  margin-bottom: 32px;
+  box-shadow: 0 2px 12px rgba(37, 99, 235, 0.10);
+  max-width: 800px;
+  margin: 0 auto 32px;
+}
+
+.fund-title {
+  color: #2563eb;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+.fund-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 24px;
+  text-align: left;
+}
+
+.fund-item {
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.fund-item.emergency {
+  background: #fef3f2;
+  border: 2px solid #fecaca;
+}
+
+.fund-item.programs {
+  background: #f0f9ff;
+  border: 2px solid #bae6fd;
+}
+
+.fund-item.capacity {
+  background: #f0fdf4;
+  border: 2px solid #bbf7d0;
+}
+
+.fund-item.operations {
+  background: #fefce8;
+  border: 2px solid #fde047;
+}
+
+.fund-percentage {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.fund-item.emergency .fund-percentage {
+  color: #dc2626;
+}
+
+.fund-item.programs .fund-percentage {
+  color: #0369a1;
+}
+
+.fund-item.capacity .fund-percentage {
+  color: #059669;
+}
+
+.fund-item.operations .fund-percentage {
+  color: #a16207;
+}
+
+.fund-name {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.fund-item.emergency .fund-name {
+  color: #dc2626;
+}
+
+.fund-item.programs .fund-name {
+  color: #0369a1;
+}
+
+.fund-item.capacity .fund-name {
+  color: #059669;
+}
+
+.fund-item.operations .fund-name {
+  color: #a16207;
+}
+
+.fund-description {
+  font-size: 0.9rem;
+}
+
+.fund-item.emergency .fund-description {
+  color: #7f1d1d;
+}
+
+.fund-item.programs .fund-description {
+  color: #0c4a6e;
+}
+
+.fund-item.capacity .fund-description {
+  color: #064e3b;
+}
+
+.fund-item.operations .fund-description {
+  color: #713f12;
+}
+
+.donate-qr img {
+  width: 220px;
+  height: 220px;
+  object-fit: contain;
+  border-radius: 16px;
+  box-shadow: 0 2px 12px rgba(37, 99, 235, 0.10);
+  background: #fff;
+  padding: 16px;
+}

@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./Navbar.css";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -19,9 +20,11 @@ const Navbar = () => {
           <a href="#home" className="nav-link">
             Home
           </a>
+          <Link to="/donation">
           <a href="#donate-food" className="nav-link donate-link">
             ❤️ Donate
           </a>
+          </Link>
           <a href="#events" className="nav-link">
             Events
           </a>
