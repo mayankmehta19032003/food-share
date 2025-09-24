@@ -8,9 +8,10 @@ const AboutUs = () => {
         <div className="aboutus-modern__content">
           <h2 className="aboutus-modern__heading">About Us</h2>
           <p>
-            We are a creative team passionate about building digital experiences
-            that inspire and engage. Our mission is to blend technology and design
-            to deliver outstanding results for our clients.
+            We are HungerHackers, a team driven by the belief that no food should go to waste when it can feed someone in need. Our platform connects food donors—restaurants, hostels, canteens—with NGOs and communities to ensure surplus food reaches those who need it most.
+          </p>
+          <p>
+            More than a platform, this is a mission. Together, we are turning surplus into smiles and building a future where compassion and technology work hand in hand.
           </p>
           <div className="aboutus-modern__cards">
             <div className="aboutus-modern__card">
