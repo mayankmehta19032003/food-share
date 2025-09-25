@@ -16,8 +16,7 @@ const Hero = () => {
             goes further.
           </p>
           <div className="hero-buttons">
-            <button className="btn-primary">Donate Now</button>
-            <button className="btn-primary">Learn More</button>
+            <a href="/donation" className="btn-primary">Donate Now</a>
           </div>
         </div>
       </div>
@@ -32,7 +31,3 @@ const Hero = () => {
 };
 
 export default Hero;
-
-
-
-
