@@ -5,6 +5,7 @@ import OurStory from "./components/OurStory/OurStory";
 import AboutUs from "./components/AboutUs/AboutUs";
 import Donation from "./components/Donate/Donate";
 import Events from "./components/EventsList/EventList";
+import ContributeFood from "./components/ContributeFood/ContributeFood";
 import { Routes, Route } from "react-router-dom";
 import "./App.css";
 
@@ -41,6 +42,16 @@ function App() {
             <>
               <Navbar />
               <Events />
+              <Footer />
+            </>
+          }
+        />
+        <Route
+          path="/contribute_food"
+          element={
+            <>
+              <Navbar />
+              <ContributeFood/>
               <Footer />
             </>
           }

@@ -13,13 +13,15 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="container">
         <div className="nav-brand">
-          <a href="#home">FoodShare</a>
+          <a href="/">FoodShare</a>
         </div>
 
         <div className={`nav-menu ${isMenuOpen ? "active" : ""}`}>
+          <Link to={"/"}>
           <a href="#home" className="nav-link">
             Home
           </a>
+          </Link>
           <Link to="/donation">
           <a href="#donate-food" className="nav-link donate-link">
             ❤️ Donate
@@ -31,10 +33,11 @@ const Navbar = () => {
           </a>
           </Link>
           
-
+          <Link to={"/contribute_food"}>
           <a href="#contribute" className="nav-link">
             Contribute Food
           </a>
+          </Link>
         </div>
 
         <div className="nav-toggle" onClick={toggleMenu}>
