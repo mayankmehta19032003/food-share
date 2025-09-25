@@ -5,24 +5,26 @@ const OurStory = () => {
   return (
     <section className="ourstory-section">
       <h2 className="ourstory-title">Our Story</h2>
-      <div className="ourstory-content">
+  <div className="ourstory-content">
         <p>
-          Our journey began with a simple idea: to turn compassion into action.
-          What started as a handful of volunteers has grown into a vibrant
-          community, united by the belief that every donation can spark real
-          change.
+          Every idea begins with a question.<br />
+          Ours was simple: “Why should something so valuable ever go to waste when it could bring hope to someone in need?”
         </p>
-        <div className="ourstory-quote-box">
-          <blockquote>
-            “Kindness is the thread that weaves communities together.”
-          </blockquote>
-          <cite>- FoodShare Team</cite>
+        <p>
+          What started as a small conversation soon grew into a vision—a vision to bridge gaps, connect hearts, and transform surplus into smiles. We believe food is more than just nourishment. It is dignity. It is care. It is life.
+        </p>
+        <p>
+          Through this platform, we are not just building technology. We are building a movement where generosity meets need, where every contribution creates impact, and where communities come together for something greater than themselves.
+        </p>
+        <p>
+          This is not just our story. It is the story of everyone who believes that even the smallest act of kindness has the power to change the world.
+        </p>
+        <div className="meals-progress-bar">
+          <h4>Meals Supplied</h4>
+          <div className="progress-bar-container">
+            <div className="progress-bar" style={{width: '80%'}}>8000 / 10000 meals</div>
+          </div>
         </div>
-        <p>
-          Today, we organize events, support those in need, and set aside 20% of
-          every donation for emergencies—so help is always within reach. Together,
-          we’re building a future where generosity and hope go hand in hand.
-        </p>
       </div>
     </section>
   );
